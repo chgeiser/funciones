@@ -2,7 +2,7 @@ let color = "";
 
 document.addEventListener("keydown", function (event) {
     const tecla = event.key.toLowerCase(); // para manejar mayúsculas o minúsculas
-    const divKey = document.getElementById("key");
+    const divKey = document.querySelector("#key");
 
   if (tecla === "a") {
     color = 'pink';
